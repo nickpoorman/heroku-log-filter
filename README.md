@@ -9,7 +9,7 @@ CLI tool to filter out heroku messages and retain the color coding. It might be 
 filter out status messages:
 
 ``` bash
-$ heroku logs | node heroku-log-filter -e "/server/status"
+$ heroku logs | heroku-log-filter -e /server/status
 ```
 
 # install
