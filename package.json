@@ -31,5 +31,9 @@
     "logs",
     "filter",
     "color"
-  ]
+  ],
+  "preferGlobal": "true",
+  "bin": {
+    "heroku-log-filter": "./index.js"
+  }
 }
