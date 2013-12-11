@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var argv = require('optimist')
   .usage('Print out the heroku logs with colors.\nUsage: $0')
   .alias('e', 'exclude')
