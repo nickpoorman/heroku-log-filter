@@ -1,0 +1,23 @@
+2013-12-11T17:23:19.511317+00:00 heroku[router]: at=info method=GET path=/server/online host=example.com fwd="0.0.0.0" dyno=web.1 connect=1ms service=2ms status=200 bytes=6
+2013-12-11T17:23:57+00:00 heroku[slug-compiler]: Slug compilation started
+2013-12-11T17:24:04.053849+00:00 app[web.1]: GET /server/online 200 1ms - 6b
+2013-12-11T17:24:04.052224+00:00 heroku[router]: at=info method=GET path=/server/online host=example.com fwd="0.0.0.0" dyno=web.1 connect=0ms service=2ms status=200 bytes=6
+2013-12-11T17:24:10.438895+00:00 heroku[api]: Deploy 476680b by user@example.com
+2013-12-11T17:24:10.464921+00:00 heroku[api]: Release v83 created by user@example.com
+2013-12-11T17:24:10+00:00 heroku[slug-compiler]: Slug compilation finished
+2013-12-11T17:24:14.998669+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2013-12-11T17:24:16.227686+00:00 heroku[web.1]: Starting process with command `node server.js`
+2013-12-11T17:24:17.292787+00:00 heroku[web.1]: Process exited with status 143
+2013-12-11T17:24:18.908193+00:00 app[web.1]: /app/api.js: We have connected to mongodb
+2013-12-11T17:24:18.997775+00:00 app[web.1]: connect.multipart() will be removed in connect 3.0
+2013-12-11T17:24:18.998013+00:00 app[web.1]: visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+2013-12-11T17:24:18.998446+00:00 app[web.1]: connect.limit() will be removed in connect 3.0
+2013-12-11T17:24:19.001867+00:00 app[web.1]: Environment: production
+2013-12-11T17:24:20.427783+00:00 app[web.1]: Express server listening on port 12087
+2013-12-11T17:24:20.834213+00:00 heroku[web.1]: State changed from starting to up
+2013-12-11T17:24:50.084653+00:00 heroku[router]: at=info method=GET path=/server/online host=example.com fwd="0.0.0.0" dyno=web.1 connect=2ms service=24ms status=200 bytes=6
+2013-12-11T17:24:50.083522+00:00 app[web.1]: GET /server/online 200 16ms - 6b
+2013-12-11T17:24:11.119674+00:00 heroku[web.1]: State changed from up to starting
+2013-12-11T17:25:34.195038+00:00 app[web.1]: GET /server/online 200 1ms - 6b
+2013-12-11T17:26:19.715226+00:00 app[web.1]: GET /server/online 200 1ms - 6b
+2013-12-11T17:26:19.727775+00:00 heroku[router]: at=info method=GET path=/server/online host=example.com fwd="0.0.0.0" dyno=web.1 connect=5ms service=10ms status=200 bytes=6

@@ -1,0 +1,35 @@
+{
+  "name": "heroku-log-filter",
+  "version": "1.0.0",
+  "description": "Filter heroku logs and retain the color.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "author": {
+    "name": "Nick Poorman",
+    "email": "mail@nickpoorman.com",
+    "url": "http://nickpoorman.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nickpoorman/heroku-log-filter.git"
+  },
+  "homepage": "https://github.com/nickpoorman/heroku-log-filter",
+  "dependencies": {
+    "colors": "~0.6.2",
+    "optimist": "~0.6.0"
+  },
+  "devDependencies": {
+    "should": "~2.1.1",
+    "mocha": "~1.15.1"
+  },
+  "keywords": [
+    "heroku",
+    "log",
+    "logs",
+    "filter",
+    "color"
+  ]
+}
