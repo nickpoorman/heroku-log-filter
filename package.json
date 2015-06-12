@@ -1,6 +1,6 @@
 {
   "name": "heroku-log-filter",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Filter heroku logs and retain the color.",
   "main": "index.js",
   "scripts": {
